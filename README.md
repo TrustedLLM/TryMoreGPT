@@ -12,9 +12,6 @@ TryMore GPT-7B/13B，是一个开源的聊天机器人，本项目以LLaMA作为
 - [测试](#model-weights)
 - [Inference with Command Line Interface](#inference-with-command-line-interface)
 - [Serving with Web GUI](#serving-with-web-gui)
-- [API](#api)
-- [Evaluation](#evaluation)
-- [Fine-tuning](#fine-tuning)
 
 ## 数据集
 
