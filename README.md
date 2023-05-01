@@ -8,12 +8,24 @@ TryMore GPT-7B/13B，是一个开源的聊天机器人，本项目以LLaMA作为
 <a href="https://vicuna.lmsys.org"><img src="assets/vicuna_logo.jpeg" width="20%"></a>
 
 ## Contents
-
+- [数据集](#数据集)
+- [测试](#model-weights)
+- [Inference with Command Line Interface](#inference-with-command-line-interface)
+- [Serving with Web GUI](#serving-with-web-gui)
+- [API](#api)
+- [Evaluation](#evaluation)
+- [Fine-tuning](#fine-tuning)
 
 ## 数据集
 
 ### Share GPT
+主要使用share GPT数据来源
 
 ### Alpaca
+主要使用Alpaca数据来源
 
 ### COIG
+主要使用COIG数据来源
+
+## 测试
+对两种模型进行测试。
