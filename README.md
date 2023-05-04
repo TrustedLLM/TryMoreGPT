@@ -25,7 +25,15 @@ TryMore GPT-7B/13B，是由揣摩研习社一个开源的聊天机器人，本�
 主要是使用COIG数据集中的人类价值观对齐指令数据集和Leetcode指令数据集。人类价值观对齐指令是中文世界共享人类价值观的样本。作者选择了50个指令作为扩充种子，并使用中文世界通用的价值观对齐样本，生成了3000个结果指令。代码指令的任务可能有助于LLM能力的涌现，作者从CC-BY-SA-4.0许可下的2,589个编程问题中构建Leetcode指令。这些问题包含问题描述、多种编程语言和解释。
 
 ## 测试样例
+
+### 计算题
 <a href=""><img src="img/example_0.png" width="100%"></a>
-<a href=""><img src="img/example_1.png" width="100%"></a>
+
+### 角色扮演
 <a href=""><img src="img/example_2.png" width="100%"></a>
+
+### 人类价值观问答
 <a href=""><img src="img/example_3.png" width="100%"></a>
+
+### 其它
+<a href=""><img src="img/example_1.png" width="100%"></a>
