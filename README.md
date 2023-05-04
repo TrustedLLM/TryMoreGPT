@@ -9,9 +9,7 @@ TryMore GPT-7B/13B，是由揣摩研习社一个开源的聊天机器人，本�
 
 ## Contents
 - [数据集](#数据集)
-- [测试](#model-weights)
-- [Inference with Command Line Interface](#inference-with-command-line-interface)
-- [Serving with Web GUI](#serving-with-web-gui)
+- [测试样例](#model-weights)
 
 ## 数据集
 
