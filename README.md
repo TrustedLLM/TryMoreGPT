@@ -7,6 +7,9 @@ TryMore GPT-7B/13B，是由揣摩研习社一个开源的聊天机器人，本�
 <p align="center">
 <a href=""><img src="img/logo.png" width="40%"></a>
 
+[TryMore GPT-7b](https://huggingface.co/TryMore/TryMoreGPT-delta-7b)
+[TryMore GPT-7b](https://huggingface.co/TryMore/TryMoreGPT-delta-13b)
+
 ## Contents
 - [数据集](#数据集)
 - [测试样例](#model-weights)
