@@ -19,15 +19,15 @@ TryMoreGPT-7B/13B is an open-source chat robot developed by Chuanmo Research Ins
 ## 数据集
 
 ### Share GPT
-使用Share GPT数据集，并对数据集进行简单清洗，然后仅保留数据集中中文和英文两种语言数据。Share GPT主要为真实人类和chatGPT聊天对话场景，该数据集模拟了OpenAI在InstructGPT中针对用户实际使用场景编写指令微调数据集的过程。Vicuna的成功说明了，该数据集使得模型解锁了多轮对话能力和指令遵循能力。
+使用Share GPT数据集，并对数据集进行简单清洗，仅保留数据集中中文和英文两种语言数据。Share GPT主要为人类和chatGPT聊天对话场景，该数据集模拟了OpenAI在InstructGPT中针对用户实际使用场景编写指令微调数据集的过程。Vicuna的成功说明该数据集使得模型解锁了多轮对话能力和指令遵循能力。
 
 ### Alpaca-GPT4
-该数据集以Self-instruct的方法在GPT-4模型中蒸馏出5.2W条英文数据，和5.2W条中文数据。相较于Share GPT数据，Alpaca-GPT4数据集覆盖大量问答数据集，该数据集训练模型用一句话更精确详细的回复问题。
+该数据集以Self-instruct的方法在GPT-4模型中生成5.2W条英文数据，和5.2W条中文数据。相较于Share GPT数据，Alpaca-GPT4数据集覆盖大量问答数据集，该数据集训练模型用一段回复更精确详细的解答问题。
 
 ### COIG
 TryMore GPT主要是使用COIG数据集中的人类价值观对齐指令数据集和Leetcode指令数据集，其中人类价值观对齐指令的作用是使模型对齐中文世界人类价值观，代码指令则有助于LLM能力的涌现。人类价值观对齐指令由50个指令作为扩充种子，并使用中文世界通用的价值观对齐样本，生成了3000个结果指令；代码指令是从CC-BY-SA-4.0许可下的2,589个编程问题（包含问题描述、多种编程语言和解释）中构建Leetcode指令。
 
-收集总计200k条指令微调数据，其中包括多轮对话，精确指令，人类价值观指令和代码编写等各种任务。
+以上收集总计200k条指令微调数据，其中包括中英多轮对话，精确指令，人类价值观指令和代码编写等各种任务。
 
 ## 模型参数
 我们将TryMore GPT权重作为delta权重发布，以符合LLaMA模型许可。你可以把我们的delta加到原来的LLaMA权重上，以获得TryMore GPT的权重。说明：
@@ -35,7 +35,7 @@ TryMore GPT主要是使用COIG数据集中的人类价值观对齐指令数据�
 1. 按照[这里](https://huggingface.co/docs/transformers/main/model_doc/llama).的说明，获得原始的huggingface格式的LLaMA权重。
 2. 使用下面的脚本，通过应用我们的delta来获得TryMore GPT权重。它们会自动从我们的Hugging Face账户下载delta权重。
 
-注意：TryMore GPT只与transformers>=4.28.0兼容。请相应地更新你的本地软件包。如果你按照上述命令进行全新安装，那么你应该得到所有正确的版本。
+注意：TryMoreGPT只与transformers>=4.28.0兼容。请相应地更新你的本地软件包。
 
 ### TryMoreGPT-7B
 这个转换命令需要大约30GB的CPU内存。如果你没有足够的内存，请参阅下面的 "Low CPU Memory Conversion"部分。
