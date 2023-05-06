@@ -49,7 +49,7 @@ python3 apply_delta \
 ### TryMoreGPT-13B
 这个转换命令需要大约60GB的CPU内存。如果你没有足够的内存，请参阅下面的 "Low CPU Memory Conversion"部分。
 
-``bash
+```bash
 python3 apply_delta \
     --base /path/to/llama-13b \
     --target /output/path/to/trymore-13b \
