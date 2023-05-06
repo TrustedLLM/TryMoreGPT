@@ -76,7 +76,7 @@ Low CPU Memory Conversion
 
 ### 代码编写
 输入力扣 1. 两数之和 的题目描述。
-
+<a href=""><img src="img/example_3.png" width="100%"></a>
 
 两份代码都把仅仅把def twoSum(nums, target):删掉，然后直接把余下代码直接提交至力扣，两份代码均通过测评，第一份代码用时较长，第二份代码速度提升明显。
 
