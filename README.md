@@ -40,7 +40,7 @@ TryMore GPT主要是使用COIG数据集中的人类价值观对齐指令数据�
 python3 apply_delta \
     --base /path/to/llama-7b \
     --target /output/path/to/trymore-7b \
-    --delta lmsys/vicuna-7b-delta-v1.1
+    --delta TryMore/TryMoreGPT-delta-7b
 ```
 
 如果以上指令报错，则从[TryMore GPT-7b](https://huggingface.co/TryMore/TryMoreGPT-delta-7b)下载TryMoreGPT-7B模型参数，然后使用使用以上指令。
@@ -52,7 +52,7 @@ python3 apply_delta \
 python3 apply_delta \
     --base /path/to/llama-13b \
     --target /output/path/to/trymore-13b \
-    --delta lmsys/vicuna-13b-delta-v1.1
+    --delta TryMore/TryMoreGPT-delta-7b
 ```
 
 如果以上指令报错，则从[TryMore GPT-13b](https://huggingface.co/TryMore/TryMoreGPT-delta-13b)下载TryMoreGPT-13B模型参数，然后使用使用以上指令。
