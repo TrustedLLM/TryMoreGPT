@@ -8,8 +8,8 @@ TryMoreGPT-7B/13B is an open-source chat robot developed by Chuanmo Research Ins
 
 ## Release
 
-- [TryMore GPT-7b](https://huggingface.co/TryMore/TryMoreGPT-delta-7b)
-- [TryMore GPT-13b](https://huggingface.co/TryMore/TryMoreGPT-delta-13b)
+- [TryMore GPT-delta-7b](https://huggingface.co/TryMore/TryMoreGPT-delta-7b)
+- [TryMore GPT-delta-13b](https://huggingface.co/TryMore/TryMoreGPT-delta-13b)
 
 ## Contents
 - [数据集](#数据集)
