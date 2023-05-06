@@ -58,6 +58,11 @@ python3 apply_delta \
 
 如果以上指令报错，则从[TryMore GPT-13b](https://huggingface.co/TryMore/TryMoreGPT-delta-13b)下载TryMoreGPT-13B模型参数，然后使用使用以上指令。
 
+Low CPU Memory Conversion
+1. 你可以尝试这些方法来减少权重转换的CPU内存需求。
+2. 在上面的命令中附加--low-cpu-mem，这将把大的权重文件分割成小的文件，并使用磁盘作为临时存储。这可以使峰值内存保持在16GB以下。
+创建一个大的交换文件，依靠操作系统自动利用磁盘作为虚拟内存。
+
 ## 测试样例
 
 ### 计算题
