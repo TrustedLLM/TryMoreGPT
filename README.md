@@ -1,11 +1,10 @@
-# TryMore GPT
+# TryMoreGPT: 面向中英双语数据指令微调的大语言模型
 
-TryMore GPT-7B/13B，是由揣摩研习社一个开源的聊天机器人，本项目以LLaMA作为基座模型，使用Vicuna训练框架，在shareGPT，Alpaca中英数据集，COIG中通用价值观，代码编写数据集完成指令微调。在中文表现上相较于原始Vicuna以及一众中文聊天机器人有具有非常有竞争力的表现。
+<img src = "img/logo.png" align = "right" width = "50">
+
+TryMoreGPT-7B/13B，是由揣摩研习社一个开源的聊天机器人，本项目以LLaMA作为基座模型，使用Vicuna训练框架，在shareGPT，Alpaca中英数据集，COIG中通用价值观，代码编写数据集完成指令微调。在中文表现上相较于原始Vicuna以及一众中文聊天机器人有具有非常有竞争力的表现。
 
 ## Release
-
-<p align="center">
-<a href=""><img src="img/logo.png" width="40%"></a>
 
 - [TryMore GPT-7b](https://huggingface.co/TryMore/TryMoreGPT-delta-7b)
 - [TryMore GPT-13b](https://huggingface.co/TryMore/TryMoreGPT-delta-13b)
